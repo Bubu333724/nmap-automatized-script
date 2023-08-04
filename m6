@@ -1,0 +1,20 @@
+#!/bin/bash
+rm -rf nmap_scan
+rm -rf nmapscan.txt
+echo "bagi aipi sa faci skan cu nmapu"
+read -r ip_periculos
+echo "Asta e ip u $ip_periculos"
+echo "dam drumu la nmap,stai ca porneste mai greu"
+sleep 3
+echo "e diesel csf"
+echo "--------------------------------"
+sleep 5
+echo "a pornit ghiuleaua"
+echo "------------------------"
+echo "======================="
+echo "-----------------------"
+sleep 3
+sudo nmap -sS -sC -sV -oN nmap_scan -p- -v -T5 "$ip_periculos"  > nmapscan.txt
+sleep 4
+echo "gata ba lache,a terminat"
+
