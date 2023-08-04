@@ -1,0 +1,8 @@
+Hello,this is an script which is automatized.
+When you install the script,you need to write chmod +x *(on the directory you installed the script)
+This script is translated in romanian.
+---------------------------------------------------------------------------------------------------
+When you first you run the script,it will tell you "baga aipi sa faci skan cu nmap" winch means, write an ip to start the nmap 
+After you write the ip to run the nmap scan,it will ask you for the [sudo] passowrd for $yourusername
+After all of this,the nmap will it start.
+When it is done,you will get an 2 file ,with output from nmap scan on the TARGET 
